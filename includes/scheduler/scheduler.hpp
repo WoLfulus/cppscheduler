@@ -461,7 +461,10 @@ namespace scheduler
 		///
 		void wait()
 		{
-			this->worker.join();
+			if (this->worker.joinable())
+			{
+				this->worker.join();	
+			}
 		}
 
 	protected:
