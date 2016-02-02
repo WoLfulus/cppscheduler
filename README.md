@@ -16,7 +16,7 @@ Features
 Dependencies
 ------------
 
-**cppscheduler** depends on **boost**. If you want to compile the Visual Studio 2013 project, you must set BOOST_DIR environment variable with the path do boost include directory.
+**cppscheduler** depends on **boost**. If you want to compile the Visual Studio 2013 project, you must set BOOST_DIR environment variable with the path of boost's include directory.
 
 Usage
 -----
